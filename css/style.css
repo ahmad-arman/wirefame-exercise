@@ -1,0 +1,41 @@
+*{
+   box-sizing: border-box; 
+}
+body{
+    width: 960px;
+    margin:  auto;
+    
+}
+header {
+    padding: 10px 0 ;
+    text-align: center;
+
+}
+header nav img {
+     width: 960;
+     height: 450;
+}
+/*main img {
+    margin-bottom: 20px;
+}*/
+section img{
+    
+    width: calc(100/3);
+    padding: 20px; ;
+  
+      
+}
+
+section:nth-child(1){
+    display: inline;
+}
+
+img:nth-child(6){
+    width: 50%;
+}
+body main section article {
+ width: calc(100%/2);
+}
+body main section article div{
+    float: right;
+}
